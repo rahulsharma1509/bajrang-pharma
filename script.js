@@ -21,7 +21,7 @@ faders.forEach(fader => {
 });
 
 // GOOGLE SHEETS INTEGRATION
-const scriptURL = "PASTE_YOUR_GOOGLE_SCRIPT_URL_HERE";
+const scriptURL = "https://script.google.com/macros/s/AKfycbz27knXWj-VSVIaebfjqa6yrP0p_B72zvQfZXffs2JXe8T9vWE9s5aOOirUZ7uRYNzh/exec";
 
 document.getElementById("deliveryForm").addEventListener("submit", e => {
   e.preventDefault();
